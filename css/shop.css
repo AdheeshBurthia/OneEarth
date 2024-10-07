@@ -1,0 +1,82 @@
+.greenbtn{
+    background-color: #42BF92;
+    margin-top: 1cm ;
+    border:none;
+    width: 70%;
+    height: 1cm;
+    border-radius: 3%;
+}
+
+#teamcontact{
+    display:flex;
+    width: 100%;
+    /* transform: translate(50%,50%);  */
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 10%; */
+    
+}
+.teamsquare{
+    padding: 5% 5% 10% 5%;
+    margin: 1%;
+    text-align: center;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+    /* width: 30vw; */
+}
+#navbar{
+    padding-bottom:2cm;
+}
+
+/*===================MOBILE RESPONSIVENESS======================*/
+@media screen and (max-width: 1000px){
+    #contact{
+        transform: translate(-50%,-50%);
+        position: absolute;
+        left: 50%;
+        top: 20cm;
+        display: inline;
+    }
+    .square{
+        background-color: white ;  
+        padding: 5% 5% 10% 5%;
+        margin-bottom: 10%;
+        text-align: center;
+        width: 50vw;
+        box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+    }
+    .greenbtn{
+    background-color: #42BF92;
+    border: none;
+    width: 70%;
+    height: 2cm;
+    border-radius: 3%;
+}
+
+    }
+    
+    @media screen and (max-width: 600px){
+        .greenbtn{
+            background-color: #42BF92;
+            border: none;
+            width: 70%;
+            height: 2cm;
+            border-radius: 3%;
+        }   
+        #teamcontact{
+            transform: translate(5%,0%);
+            position: absolute;
+            /*left: 50%;*/
+            top: 2cm;
+            display: inline;
+        }
+
+        .teamsquare{
+            padding: 5% 5% 10% 5%;
+            margin: 1%;
+            text-align: center;
+            width: 90vw;
+            box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+        }
+
+        }
+     

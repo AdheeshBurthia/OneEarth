@@ -1,0 +1,213 @@
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Allerta+Stencil);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+ 
+ 
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/******* Fun Facts ******/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+.fun-fact{
+	background:none;
+	margin-top: 0;
+	padding: 66px 0 0 0;
+}
+body{
+        width: 100%;
+        overflow-x:hidden;
+}
+
+
+ 
+@media (min-width:991px){
+	.fun-fact{
+	margin-top: 10px;
+	background:url("https://www.fpmagazine.com.au/wp-content/uploads/2021/12/shutterstock_247702699.png") no-repeat fixed center;
+	background-size: cover;
+	padding: 66px 0 ;
+}
+
+.milestone-counter {
+	background: rgba(112, 159, 205, 0.46);
+	padding: 40px 10px;
+}
+}
+.milestone-counter {
+	background: none;
+	padding: 40px 10px;
+}
+
+.stat {
+   padding-left:9% ;
+   text-align:center;
+   background:rgba(0, 0, 0, 0.7);
+}
+.highlight {
+   color:white;
+   padding:20px 0;
+   font-weight:bold;
+   display:block;
+   overflow:hidden;
+   margin-bottom:0;
+   font-size:48px;
+}
+.stat i {
+	color: #F9F9F9;
+}
+.milestone-details {
+   font-weight:bold;
+   font-size:18px;
+   color: #FFF6F6;
+}
+
+
+
+/*---------------------------------------  Donations -------------------------------------------------------*/
+.btn-block {
+	/*margin-right: 10px;*/
+	padding: 9px 37px;
+	background:#42BF92;
+	margin-bottom: 10px;
+}
+.form-control {
+	height: 47px;
+}
+.donate-body {
+	margin: 0 auto;
+	text-align: center;
+} 
+
+.btn-tertiary{
+	padding: 12px 37px;
+	background: #42BF92;
+	border:none;
+	border-radius: 5%;
+	font-style: oblique;
+	font-weight: 700; 
+} 
+ 
+.btn-tertiary a{ 
+	color: white;
+	font-style: none;
+} 
+ 
+.btn-tertiary a:hover{ 
+	color: black;
+	font-size: larger;
+} 
+ 
+
+/* -------------------------------------my code css------------------------------------- */
+/* ------------------------------------------------------------------------------------- */
+.list-unstyled{
+	display: flex;
+	list-style: none;
+	position: relative;
+	transform: translate(17%,0%);
+	width: 75%;
+}
+h2{
+    padding-bottom:1cm;
+}
+.list-unstyled .btn { 
+	border-radius: 5%;
+	color: white;
+	border: none;
+}
+
+.form-control{
+	max-height: .95cm;
+}
+
+fieldset{
+	border: none;
+}
+
+
+.donate-text .text-center,.donate-text  p{
+	text-align: center;
+	padding: 0 2cm 1cm 2cm;
+}
+
+.stat{
+	display: flex;  
+
+}
+.col-lg-3{ 
+	margin: 0% 5% 0% 5%;
+	/*width: 10cm;*/
+}
+
+@media only screen and (max-width: 900px) { 
+	.fun-fact{ 
+	background:url("https://www.fpmagazine.com.au/wp-content/uploads/2021/12/shutterstock_247702699.png") no-repeat fixed center;
+	background-size: cover; 
+	    
+	}
+	.list-unstyled{
+		display: list-item;
+		list-style: none;
+		position: relative;
+		transform: translate(17%,0%);
+		width: 75%;
+	}
+	
+	.list-unstyled .btn { 
+		border-radius: 5%;
+		color: white;
+		border: none;
+		position: relative;
+		left: 2%;
+	}
+	
+	.form-control{
+		max-height: .95cm;
+		position: relative;
+		left: 12%;
+	}
+	
+	fieldset{
+		border: none;
+	}
+	
+	.donate-text{
+		position: relative;
+		/*left: 6%;*/
+		/*width:80%;*/
+	}
+	.donate-text .text-center,.donate-text  p{
+		text-align: center;
+		padding: 0 0cm 0 0cm;
+	}
+	
+	.stat{
+	    padding:0;
+		display: list-item;  
+		position: relative;
+		/*left: -1cm;*/
+	
+	} 
+	.form-horizontal,.btn-tertiary{
+		position: relative;
+		left: 0%;
+	}
+	.control-group{
+		position: relative;
+		left: -10%;
+	}
+	.milestone-counter { 
+    /*width: 104vw;*/
+}
+  }
+  
+  
+@media (min-width:1400px){
+    .stat {
+    padding-left: 11%; 
+}
+}
+  
+  #empty{
+    height:2.4cm;
+  }

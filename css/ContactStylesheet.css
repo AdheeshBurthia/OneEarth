@@ -1,0 +1,207 @@
+body{
+    background-image: url(/img/ContactUsBackground2.jpg);
+    background-repeat: no-repeat; 
+    background-position: 0cm 2.1cm;
+    display: list-item; 
+    padding-top: 15%;
+}  
+#smalltext{
+    text-align: center; 
+    color:  var(--body-color) !important;
+}
+#title{
+    font-size: 250%;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*width: 90vw;*/
+}
+
+#line{
+    padding: 1px;
+    background-color: #42BF92;
+}
+
+
+#smalltext #subtxt{
+    font-size: 120%;
+    text-align: center;
+}
+#contact{ 
+    display:flex;
+    padding-left: 18%;
+}
+.square{
+    background-color: var(--body-color) !important;  
+    padding: 5% 5% 5% 5%;
+    margin: 1%;
+    text-align: center;
+    width: 30vw;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+}
+
+
+.maintext{
+    font-size: 1cm;
+}
+.longtext{
+    padding: 5% 5% 10% 5%;
+    color:var(--text-color);
+}
+/*.greenbtn{*/
+/*    background-color: #42BF92;*/
+/*    border: none;*/
+/*    width: 60%;*/
+/*    height: 40%;*/
+/*    border-radius: 5%;*/
+/*}*/
+#team{
+    text-align: center; 
+    padding-top:10%; 
+}
+#teamcontact{  
+        display:flex; 
+        padding-left:2%;
+}
+ 
+
+.teamsquare{
+    padding: 5% 5% 5% 5%;
+    margin: 1%;
+    text-align: center;
+    width: 30vw;
+    box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+}
+ 
+/*===================MOBILE RESPONSIVENESS======================*/
+@media screen and (max-width: 816px){
+    #blank{
+        display:none;
+    } 
+    body{ 
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 50%;
+        width: 100vw;
+        background-position: 0cm 1.5cm;
+        display:list-item;
+    } 
+    #contact{ 
+        /* position: absolute; */
+        left: 0%; 
+        display: inline;
+    }
+    .square{
+        background-color: var(--body-color) !important;  
+        padding: 5% 5% 10% 5%;
+        margin-left: 10%;
+        text-align: center;
+        width: 80vw;
+        box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+    }
+    .greenbtn{
+        background-color: #42BF92;
+        border: none;
+        width: 70%;
+        height: 2cm;
+        border-radius: 3%;
+    }
+
+        #team{
+            text-align: center; 
+            padding-bottom:25%;
+            padding-top:25%;
+        }
+        #teamcontact{ 
+            display:list-item;
+            list-style: none;   
+            
+        }
+        #teamcontact1{
+            transform: translate(-50%,-50%);
+            position: absolute;
+            left: 50%;
+            top: 490%;
+            display: inline;
+            
+        }
+
+        .teamsquare{
+            padding: 5% 5% 10% 5%;
+            margin: 1%;
+            text-align: center;
+            width: 95vw;
+            box-shadow: 0 7px 25px 0 rgba(0, 0, 0, 0.08);
+        }
+    } 
+    
+    
+    
+     /* ANIMATION for buttons */
+      
+    .btn{
+    background-color: #42BF92;
+    border: none;
+    width: 60%; 
+    border-radius: 5%; 
+    padding-top:15px;
+    padding-bottom:15px;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 45px; 
+    text-transform: uppercase; 
+  }
+  .btn:hover {
+    text-decoration: none;
+  }
+  
+  /*btn_background*/
+  .effect04 {
+    --uismLinkDisplay: var(--smLinkDisplay, inline-flex);
+    display: var(--uismLinkDisplay);
+    color: #000; 
+    position: relative;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    min-width:4cm;
+  }
+  
+  .effect04::before,
+  .effect04 span{
+      margin: 0 auto;
+      transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+      transition-duration: 0.4s;
+  }
+  
+  /* 文字1を上に */
+  .effect04:hover{
+  
+    background-color: rgb(90, 254, 191);
+  }
+  
+  /* HOVERしたら文字1を上に */
+  .effect04:hover span{
+    -webkit-transform: translateY(-400%) scale(-0.1,20);
+            transform: translateY(-400%) scale(-0.1,20);
+  }
+  
+  /*文字2*/
+  .effect04::before{
+    content: attr(data-sm-link-text);
+      color: #FFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: translateY(500%) scale(-0.1,20);
+            transform: translateY(500%) scale(-0.1,20);
+  }
+  
+  /* HOVERしたら文字2を上に */
+  .effect04:hover::before{
+    letter-spacing: 0.05em;
+    -webkit-transform: translateY(0) scale(1,1);
+            transform: translateY(0) scale(1,1);
+  }
+   

@@ -1,0 +1,193 @@
+@import url('http://fonts.cdnfonts.com/css/aquire');
+#preloader{
+    background: #2B2C2F url(img/loader.gif) no-repeat center center;
+    position: fixed;
+    z-index: 100;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+#infinity{
+    position: absolute;
+    margin-top: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Aquire', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+}
+#infinity a{
+    color: white;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#footernav{
+    width:100%;
+    margin-top: 44.3%;
+    position: absolute;
+    z-index: 1;
+}
+footer ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer li {
+    display: inline;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Aquire', sans-serif;
+}
+footer li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 15px;
+}
+#networks{
+    margin-top: 2%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-family: "Century Gothic", sans-serif;
+}
+footer #image{
+    margin-top: 1.2%;
+    margin-left: 41.8%;
+}
+footer #image1{
+    width:4%;
+    padding: 0;
+}
+footer #image2{
+    margin-left: 6%;
+    width: 4%;
+    padding: 0;
+}
+footer #image3{
+    margin-left: 12%;
+    width: 4%;
+    padding: 0;
+}
+#copyright{
+    margin-top: 7.3%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 100;
+    color: #c3c3c3;
+    font-family: "Century Gothic", sans-serif;
+}
+#terms{
+    margin-top: 0.5%;
+    text-align: center;
+    font-size: 17px;
+    color: #c3c3c3;
+    font-family: "Century Gothic", sans-serif;
+}
+#terms a{
+    color: #c3c3c3;
+}
+footer img{
+    padding-bottom: 6.3%;
+    width: 100%;
+    background-color: #0f1e24;
+    position: absolute;
+    z-index: -1;
+}
+@media only screen and (max-width:1200px) {
+  /* For screen max width 1200px: */
+    footer img{
+        padding-bottom: 9%;
+    }
+}
+@media only screen and (max-width:1000px) {
+  /* For screen max width 1000px: */
+    footer li {
+        font-size: 21px;
+    }
+    footer li a{
+        padding: 10px 10px;
+    }
+    footer img{
+        padding-bottom: 10.8%;
+    }
+}
+@media only screen and (max-width:800px) {
+  /* For screen max width 800px: */
+    footer li {
+        font-size: 21px;
+    }
+    footer li a{
+        padding: 11px 11px;
+    }
+    #terms a{
+        font-weight: 100;
+    }
+    footer img{
+        padding-bottom: 13.3%;
+    }
+}
+@media only screen and (max-width:700px) {
+    /* For mobile phones/tablet max width 700px: */
+    footer li {
+        font-size: 19px;
+    }
+    footer li a{
+        padding: 10px 10px;
+    }
+    #networks{
+    font-size: 13px;
+}
+    #copyright{
+        font-size: 15px;
+    }
+    #terms{
+        font-size: 15px;
+    }
+    footer img{
+        padding-bottom: 14.5%;
+    }
+}
+@media only screen and (max-width:600px) {
+    /* For mobile phones/tablet max width 600px: */
+    #footernav{
+        bottom: 0;
+        margin-bottom: 1.8%;
+    }
+    footer ul {
+        display:none;
+    }
+    footer #image{
+        margin-top: 1.8%;
+        margin-left: 27.5%;
+    }
+    footer #image1{
+        width:12%;
+    }
+    footer #image2{
+        margin-left: 16%;
+        width: 12%;
+    }
+    footer #image3{
+        margin-left: 32%;
+        width: 12%;
+    }
+    #copyright{
+    margin-top: 20.3%;
+}
+    footer #footerimg{
+        width: 100%;
+        padding-bottom: 33.5%;
+        bottom: 0;
+    }
+}
